@@ -1,0 +1,54 @@
+{
+  "manifest_version": 3,
+  "name": "eCobra Bot Helper",
+  "description": "Enhanced tools for Solana memecoin trading on padre.gg, axiom.trade, and gmgn.ai",
+  "version": "0.0.1",
+  "permissions": ["storage", "scripting", "alarms", "clipboardWrite"],
+  "host_permissions": [
+    "https://trade.padre.gg/*",
+    "https://axiom.trade/*",
+    "https://gmgn.ai/*",
+    "https://api.dexscreener.com/*",
+    "https://api.dexpaprika.com/*",
+    "https://lite-api.jup.ag/*",
+    "https://twitter283.p.rapidapi.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "eCobra Bot Helper"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://trade.padre.gg/trenches*",
+        "https://trade.padre.gg/trade/solana/*",
+        "https://axiom.trade/*",
+        "https://gmgn.ai/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "overlay.html",
+        "src/overlay/chartx.html",
+        "assets/*"
+      ],
+      "matches": [
+        "https://trade.padre.gg/*",
+        "https://axiom.trade/*",
+        "https://gmgn.ai/*"
+      ]
+    }
+  ]
+}

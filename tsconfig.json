@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM"],
+    "types": ["chrome"],
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "$lib/*": ["src/lib/*"]
+    }
+  },
+  "include": ["src", "scripts", "manifest.json"],
+  "exclude": ["node_modules", "dist"]
+}
