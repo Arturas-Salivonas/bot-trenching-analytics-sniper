@@ -6,6 +6,22 @@
 
 eCobra Bot Helper is a comprehensive trading assistant that enhances your experience on Solana memecoin trading platforms with advanced analytics, filtering, and monitoring capabilities.
 
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/1git.jpg "Admin name, followers on twittery, last coin 60 min ATH, Tag(group)")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/2git.jpg "Trenching settings #1")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/3git.jpg "Trenching settings #2")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/4git.jpg "Analytics settings")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/5git.jpg "ADMIN DATA")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/6git.jpg "Analytics - Admin tools")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/7git.jpg "Sniper settings")
+
+![alt text](https://github.com/Arturas-Salivonas/bot-trenching-analytics-sniper/blob/main/github-demo-images/8git.jpg "Dex screener in the coin page shows status processing/approved/canceled + shows original or CTO + boost")
+
 ## 🌐 Supported Platforms
 
 This extension works seamlessly on:
