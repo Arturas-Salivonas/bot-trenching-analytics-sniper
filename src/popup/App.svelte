@@ -16,7 +16,7 @@
 
 <div class="app">
   <header>
-    <h1>Padre Assistant</h1>
+    <h1>eCobra Bot Helper</h1>
     <div class="actions">
       <button class="mini" on:click={() => window.open(chrome.runtime.getURL('popup.html'), '_blank')}>Open Full Tab</button>
       <button class="mini" on:click={() => chrome.tabs.query({active:true, currentWindow:true}, tabs => {
